@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../js/profesor.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <header>Profesor</header>
+            <nav></nav>
+
+            <!-- Base principal del contenido -->
+            <section>
+
+                <!-- Formulario -->
+                <form action="http://miservicio/guardar/estudiante">
+                    <h2>Formulario</h2>
+
+                    <!-- Campos del formulario, p tomando caraccteristicas de un label e input -->
+                    <p id="mensaje"></p>
+                    <p type="Cedula:"><input id="idCedula" type="text"></p>
+                    <p type="Apellido:"><input id="idNombre" type="text"></p>
+                    <p type="Apellido:"><input id="idApellido" type="text"></p>
+        
+                    <button id="btnGuardar" onclick="guardar()">Enviar</button>
+                    <p type="Json:"><input id="json" type="text"></p>
+                    <button id="btnJson" onclick="mostrar()">Json</button>
+                </form>
+            </section>
+            <footer></footer>
+        </div>
+</body>
+</html>

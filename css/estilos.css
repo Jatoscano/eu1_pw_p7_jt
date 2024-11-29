@@ -1,0 +1,50 @@
+.container{
+    /* Manipular de manera felxible el contenido del contenedor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    /* Fondo de la página */
+    background-color: #27c544;
+}
+
+p::before{
+    /* Agregar contenido antes de un elemento */
+    /* con el atrr(type) toma referencia del nombre del atributo */
+    content: attr(type);
+    display: block;
+    margin: 3px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #322a2a;
+}
+
+
+
+.json {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #608edd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+#json{
+    width: 250px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
